@@ -1,4 +1,5 @@
 const Discord = require('discord.js');
+const config = require('./lib/config')
 const client = new Discord.Client();
 const token = process.argv.length == 2 ? process.env.token : "";
 const moment = require("moment");
